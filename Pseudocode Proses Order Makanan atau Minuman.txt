@@ -1,0 +1,37 @@
+﻿START
+WHILE “Buka Aplikasi”
+DO “Masuk ke fitur Makanan atau Minuman”
+ 
+SEARCH “Makanan atau Minuman yang diinginkan”
+IF “Makanan atau Minuman yang diinginkan tersedia”
+	PRINT “Pilih Makanan atau Minuman”
+ELSE
+	PRINT “cari kembali Makanan atau Minuman”
+ 
+THEN
+  “Pilih Voucher Promo”
+IF “Menggunakan Voucher Promo”
+	PRINT “Voucher Promo”
+ELSE
+      PRINT “ Tidak memakai Voucher Promo”
+ 
+THEN
+  “Atur Alamat Pengiriman”
+
+ 
+THEN
+  “Pilih Metode Pembayaran”
+IF “Pembayaran sistem Cash On Delivery”
+      PRINT “ Cash On Delivery”
+ELSE
+      PRINT “Tidak Cash On Delivery”
+
+ 
+THEN
+“Pesanan Dibuat”
+“Tunggu Pesanan Dijemput Drive
+“Pesanan Telah Tiba”
+“Pesanan Diterima Customer”
+ 
+END WHILE
+END
